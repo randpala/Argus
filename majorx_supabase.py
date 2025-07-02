@@ -8,7 +8,7 @@ load_dotenv()
 supabase_key = os.environ['SUPABASE']
 
 # Create Supabase Client
-supabase = create_client("https://iiajztizubphlsvhbhvq.supabase.co", supabase_key)
+supabase = create_client("https://puklguafmkcklcmvycex.supabase.co", supabase_key)
 # XP incremenet in Supabase
 async def xp_increment(amount, id) -> None:
   try:
